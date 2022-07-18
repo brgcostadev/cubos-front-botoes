@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8EFEF;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 64px 90px 56px 90px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 24px 0px #00000026;
+}
+
+h1 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 15px 0 52px 0;
+    max-width: 339px;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #CAD6E4;
+    padding: 25px 0 25px 25px;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    align-items: baseline;
+}
+
+a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px; 
+    text-decoration: none; 
+}
+
+button {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+    padding: 25px 35px 25px 35px;
+    background-color: #046586;
+    border-radius: 5px;
+    border: 0px;
+}
+
+button img {
+    margin-left: 14px;
+}
+
+hr {
+    border: 1px solid #CAD6E4;
+    margin: 55px 0 35px;
+}
+
+p.p-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color:#838A9E;
+}
+
+button.social {
+    background-color: #ffffff;
+    padding: 12px 40px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #CAD6E4;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+button.social:hover {
+    border: 1px solid #000000;
+}
+
+.right {
+ margin-right: 8px;
+}
+
+.left {
+    margin-left: 8px;
+   }
+
+button.social img {
+    padding-right: 11px;
+    max-width: 34px;
+    max-height: 34px;
+}
+
+p.p-footer {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color:#000000;
+}
+
+p.p-footer a {
+    text-decoration: underline;
+}
+
+/* font-family: 'Mulish', sans-serif;
+font-family: 'Rokkitt', serif; */
